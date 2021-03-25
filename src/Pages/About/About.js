@@ -10,7 +10,7 @@ function About() {
             <article className="container">
                 <div className="row">
                     <div className="col-lg-8">
-                        <div className="card">
+                        <div className="AboutCard">
                             <div className="card-header">
                                 About Me
                             </div>
@@ -27,10 +27,10 @@ function About() {
                                 And my favorite dishes to make is Boliche ( a Cuban styled stuffed pot roast) and my favorite cocktail would have to be a Zombie.
                                 <br />
                                 </p>
-                                <a id="resume" href="" target="_blank"> Click here to see a copy of my resume</a>
+                                <a href="" target="_blank"> Click here to see a copy of my resume</a>
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="AboutCard">
                             <div className="card-header">
                                 Find me on Social Media:
                             </div>

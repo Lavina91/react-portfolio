@@ -9,19 +9,18 @@
 }
 .card {
     /* postioning */
-    margin-top: 100px;
+    margin-top: ZZZpx ;
 }
 
 .card-header {
-    /* font */
+         /* font */
     font-weight: bold;
     font-size: 32px;
 
-    /* postioning */
-    margin-left: 50px;
+      /* postioning */
     margin-right: 50px;
 
-    /* sets background color  */
+   /* sets background color  */
     background-color: white;
 }
 
@@ -33,8 +32,8 @@
 
 .card-body2 {
     /* postioning */
-    margin-bottom: 70px;
-    margin-top: 10px;
+  margin-bottom: 70px;
+  margin-top: 10px;
 }
 
 .icon {
