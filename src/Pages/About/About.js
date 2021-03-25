@@ -1,10 +1,20 @@
-import React from 'react'
-import ProfilePic from "../../Images/FB_IMG_1610229753295.jpg"
-import Linkedin from "../../Images/iconfinder_linked_in_104828.png"
-import Instagram from "../../Images/iconfinder_Instagram_glyph_svg_5335781.png"
-import Github from "../../Images/iconfinder_github_317712.png"
+import React, { useState } from 'react'
+import ProfilePic from "../../Assets/Profile-Pic.jpg"
+import Linkedin from "../../Assets/linkedin-icon.png"
+import Instagram from "../../Assets/insta-icon.png"
+import Github from "../../Assets/github-icon.png"
+import { Document, Page } from "react-pdf"
 import "./About.css"
 function About() {
+
+    const [numPages, setNumPages] = useState(null);
+    const [pageNumber, setPageNumber] = useState(1);
+
+    function onDocumentLoadSuccess({ numPages }) {
+        setNumPages(numPages);
+    }
+
+
     return (
         <div>
             <article className="container">
@@ -27,7 +37,10 @@ function About() {
                                 And my favorite dishes to make is Boliche ( a Cuban styled stuffed pot roast) and my favorite cocktail would have to be a Zombie.
                                 <br />
                                 </p>
-                                <a href="" target="_blank"> Click here to see a copy of my resume</a>
+                                <Document file="Entry Level Web Developer.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+                                    <Page pageNumber={pageNumber} />
+                                </Document>
+                                <p>Page {pageNumber} of {numPages}</p>
                             </div>
                         </div>
                         <div className="AboutCard">
