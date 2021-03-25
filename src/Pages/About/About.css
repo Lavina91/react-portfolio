@@ -1,0 +1,47 @@
+.profile-pic {
+    /* dimensions */
+    width: 300px;
+    height: 300px;
+
+    /* postioning */
+    float: left;
+    margin-right: 20px;
+}
+.card {
+    /* postioning */
+    margin-top: 100px;
+}
+
+.card-header {
+    /* font */
+    font-weight: bold;
+    font-size: 32px;
+
+    /* postioning */
+    margin-left: 50px;
+    margin-right: 50px;
+
+    /* sets background color  */
+    background-color: white;
+}
+
+.card-text {
+    /* postioning */
+    float: right;
+    margin-right: 20px;
+}
+
+.card-body2 {
+    /* postioning */
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+.icon {
+    /* dimensions */
+    width: 50px;
+    height: 50px;
+
+    /* postioning  */
+    margin-left: 50px;
+}
