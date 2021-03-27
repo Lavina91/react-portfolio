@@ -1,35 +1,37 @@
-import React, { Component } from "react";
-import ProjectCard from "../../Components/ProjectsCard/ProjectsCard"
-
-class Portfolio extends Component {
-
-    state = {
-        name: ["Iss Locator", "Weather Planner", "AdventureOps", "Make and Eat Burger"],
-        githubLinks: ["https://github.com/tika27/SpaceEvent.location", "https://github.com/Lavina91/Weather-Planner", "https://github.com/Perkyderm/Adventureops", "https://github.com/Lavina91/make_and_eat_burger"],
-        appLinks: ["https://tika27.github.io/SpaceEvent.location/", "https://lavina91.github.io/Weather-Planner/", "https://adventureops.herokuapp.com/login", "https://secure-ridge-91792.herokuapp.com/"],
-        images: ["../../Assets/project1.png", "../../Assets/weather-planner.png", "../../Assets/adventureOps", "../../Assets/burger.png"],
-    }
+import React from 'react';
+import IssLocator from "../../Assets/project1.png";
+import weatherPlanner from "../../Assets/weather-planner.png";
+import adventureOps from "../../Assets/adventureOps.png";
+import burger from "../../Assets/burger.png"
+import "./Portfolio.css"
 
 
+function Portfolio() {
+    return (
+        <>
+            <div className="portfolioCardBody">
+                <h2 className="iss-locator">Iss Locator</h2>
+                <a className="links" href="https://tika27.github.io/SpaceEvent.location/"> Link to deployed application</a>
+                <a className="links" href="https://adventureops.herokuapp.com/login"> Link to Github Page </a>
+                <img src={IssLocator} alt="home page of the Iss Locator application"></img>
 
+                <h2 className="weather-planner"> Weather Planner</h2>
+                <a className="links" href="https://lavina91.github.io/Weather-Planner/"> Link to deployed application</a>
+                <a className="links" href="https://github.com/Lavina91/Weather-Planner"> Link to Github Page </a>
+                <img src={weatherPlanner} alt="home page of the Weather Planner application"></img>
 
-    render() {
-        return (
+                <h2 className="adventureOps">AdventureOps</h2>
+                <a className="links" href="https://adventureops.herokuapp.com/login"> Link to deployed application</a>
+                <a className="links" href="https://github.com/Perkyderm/Adventureops"> Link to Github Page </a>
+                <img src={adventureOps} alt="login screen of the adventureOps application"></img>
 
-            <article className="container">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className="ProjectCard">
-                            <div className="ProjectCard-header">
-                                Portfolio
-                            </div>
-                            <ProjectCard names={this.state.name} />
-                        </div>
-                    </div>
-                </div>
-            </article>
-        )
-    }
+                <h2 className="burger">Make and Eat Burger</h2>
+                <a className="links" href="https://secure-ridge-91792.herokuapp.com/"> Link to deployed application</a>
+                <a className="links" href="https://github.com/Lavina91/make_and_eat_burger"> Link to Github Page </a>
+                <img src={burger}></img>
+            </div>
+        </>
+    )
 }
 
-export default Portfolio;
+export default Portfolio

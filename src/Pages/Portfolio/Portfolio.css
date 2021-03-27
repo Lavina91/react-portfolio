@@ -1,0 +1,25 @@
+img {
+    /* postioning  */
+    margin: 30px;
+    margin-left: 250px;
+
+    /* dimensions */
+    width: 900px;
+    height: 500px;
+}
+
+.links {
+    margin-left: 25%;
+}
+
+.weather-planner {
+    margin-top: 150px;
+}
+
+.adventureOps {
+    margin-top: 150px;
+}
+
+h2 {
+    margin-left: 45%;
+}
