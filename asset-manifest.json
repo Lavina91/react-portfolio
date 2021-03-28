@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.2629aa9a.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.2ea8513b.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.2ea8513b.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.b0acb631.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.990f52fa.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.990f52fa.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.e530417f.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e530417f.js.map",
     "static/css/2.92f9b39e.chunk.css": "/react-portfolio/static/css/2.92f9b39e.chunk.css",
-    "static/js/2.8971b104.chunk.js": "/react-portfolio/static/js/2.8971b104.chunk.js",
-    "static/js/2.8971b104.chunk.js.map": "/react-portfolio/static/js/2.8971b104.chunk.js.map",
+    "static/js/2.7c937c7b.chunk.js": "/react-portfolio/static/js/2.7c937c7b.chunk.js",
+    "static/js/2.7c937c7b.chunk.js.map": "/react-portfolio/static/js/2.7c937c7b.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.92f9b39e.chunk.css.map": "/react-portfolio/static/css/2.92f9b39e.chunk.css.map",
-    "static/css/main.2629aa9a.chunk.css.map": "/react-portfolio/static/css/main.2629aa9a.chunk.css.map",
-    "static/js/2.8971b104.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8971b104.chunk.js.LICENSE.txt",
+    "static/css/main.b0acb631.chunk.css.map": "/react-portfolio/static/css/main.b0acb631.chunk.css.map",
+    "static/js/2.7c937c7b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7c937c7b.chunk.js.LICENSE.txt",
     "static/media/Profile-Pic.fad4d225.jpg": "/react-portfolio/static/media/Profile-Pic.fad4d225.jpg",
     "static/media/adventureOps.e3031a98.png": "/react-portfolio/static/media/adventureOps.e3031a98.png",
     "static/media/burger.e41f3932.png": "/react-portfolio/static/media/burger.e41f3932.png",
     "static/media/github-icon.b392be3f.png": "/react-portfolio/static/media/github-icon.b392be3f.png",
+    "static/media/mario.b75e9c38.pdf": "/react-portfolio/static/media/mario.b75e9c38.pdf",
     "static/media/project1.671e7c67.png": "/react-portfolio/static/media/project1.671e7c67.png",
     "static/media/weather-planner.705eff39.png": "/react-portfolio/static/media/weather-planner.705eff39.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e530417f.js",
     "static/css/2.92f9b39e.chunk.css",
-    "static/js/2.8971b104.chunk.js",
-    "static/css/main.2629aa9a.chunk.css",
-    "static/js/main.2ea8513b.chunk.js"
+    "static/js/2.7c937c7b.chunk.js",
+    "static/css/main.b0acb631.chunk.css",
+    "static/js/main.990f52fa.chunk.js"
   ]
 }
