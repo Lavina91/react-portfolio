@@ -1,25 +1,21 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ProfilePic from "../../Assets/Profile-Pic.jpg"
 import Linkedin from "../../Assets/linkedin-icon.png"
 import Instagram from "../../Assets/insta-icon.png"
 import Github from "../../Assets/github-icon.png"
-import { Document, Page } from "react-pdf"
+import pdf from "../../Assets/mario.pdf"
 import "./About.css"
+
+
 function About() {
 
-    const [numPages, setNumPages] = useState(null);
-    const [pageNumber, setPageNumber] = useState(1);
-
-    function onDocumentLoadSuccess({ numPages }) {
-        setNumPages(numPages);
-    }
 
 
     return (
-        <div>
+        <div className="backgroundPic">
             <article className="container">
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 aboutCard">
                         <div className="AboutCard">
                             <div className="card-header">
                                 About Me
@@ -37,10 +33,9 @@ function About() {
                                 And my favorite dishes to make is Boliche ( a Cuban styled stuffed pot roast) and my favorite cocktail would have to be a Zombie.
                                 <br />
                                 </p>
-                                <Document file="Entry Level Web Developer.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-                                    <Page pageNumber={pageNumber} />
-                                </Document>
-                                <p>Page {pageNumber} of {numPages}</p>
+                                
+                                <a href={pdf} target="_blank">Click here for a copy of my resume</a>
+                             
                             </div>
                         </div>
                         <div className="AboutCard">
