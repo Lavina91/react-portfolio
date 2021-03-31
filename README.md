@@ -38,4 +38,4 @@ an about me with a bio section and links to my social medias, a portfolio sectio
 
 
 ## Link 
-[Link to deployed Heroku app](https://adventureops.herokuapp.com/login)
+[Link to deployed GitHub app](https://lavina91.github.io/react-portfolio/)
